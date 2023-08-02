@@ -1,12 +1,29 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
 }
 
+.text {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.kakao {
+  width: 200px;
+  height: 60px;
+  border-radius: 8px;
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  background-color: #fee600;
+  color: black;
+}
 .description {
   display: inherit;
   justify-content: inherit;
@@ -97,7 +114,7 @@
 
 .center::before,
 .center::after {
-  content: '';
+  content: "";
   left: 50%;
   position: absolute;
   filter: blur(45px);
